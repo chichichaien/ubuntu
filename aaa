@@ -1,3 +1,5 @@
+copy
+
 ==============================================================================
 
 copy "grub.cfg" vao` "40_custom" bat dau tu "menuentry" roi chinh sua tuy` y'
@@ -31,9 +33,9 @@ xoa suer
 
 xoa home folder
 
-sudo swapoff -v /swapfile
+sudo swapoff -a
 
-sudo rm /swapfile
+sudo rm /swap.img
 
 sudo gedit /etc/fstab
 sudo gnome-text-editor /etc/fstab
