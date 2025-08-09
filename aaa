@@ -25,7 +25,7 @@ sudo update-grub
 
 ==============================================================================
 
-sudo apt install ecryptfs-utils cryptsetup
+sudo apt install ecryptfs-utils cryptsetup -y
 
 sudo ecryptfs-migrate-home -u ahihi
 
